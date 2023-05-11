@@ -1,0 +1,5 @@
+.posts__grid {
+  display: grid;
+  grid-template-columns: 361px 361px 361px 361px;
+  grid-gap: 10px;
+}

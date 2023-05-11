@@ -1,0 +1,86 @@
+.card {
+  background: #f7f7f7;
+  border: 1px solid #a0a0a0;
+  border-radius: 15px;
+  height: 320px;
+  width: 361px;
+}
+.card__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  height: 60px;
+}
+
+.card__title a:hover {
+    text-decoration: underline;
+}
+.card__wrap {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 280px;
+}
+.card__cat {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  height: 33px;
+
+  margin-top: 18px;
+}
+
+.card__cat > p {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1px;
+  text-align: center;
+  color: #989898;
+}
+
+.card__time {
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+ 
+  align-items: center;
+}
+
+.card__clock {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #989898;
+}
+.card__time__date {
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__read__button {
+  background: #141414;
+  border-radius: 5px;
+  height: 44px;
+  color: #fff;
+  text-align: center;
+}
+.card__read__button a{
+  background: #141414;
+  border-radius: 5px;
+  height: 44px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.card__read__button:hover {
+    opacity: 0.9;
+}
+

@@ -1,0 +1,19 @@
+.header__link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 30px;
+}
+
+.is__admin {
+  background-color: #fb7185;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+}
